@@ -16,11 +16,11 @@ Using the np.linalg.solve(), we can find the solutions.
 End the program
 ## Program:
 
-import numpy as np
-a = np.array([[1,3],[2,5]]) 
-b = np.array([5,-3]) 
-solution=np.linalg.solve(a,b)
-print(solution)
+import numpy as np<br>
+a = np.array([[1,3],[2,5]]) <br>
+b = np.array([5,-3]) <br>
+solution=np.linalg.solve(a,b)<br>
+print(solution)<br>
 
 
 ## Output:
