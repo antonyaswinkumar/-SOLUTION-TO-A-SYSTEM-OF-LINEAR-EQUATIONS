@@ -3,7 +3,8 @@
 To write a python program to find a solution to a system of linear equations.
 ## Equipment’s required:
 1. 	Hardware – PCs
-2. 	Anaconda – Python 3.7 Installation / Moodle-Code Runner
+2. 	Anaconda – Python 3.7 Installation / Moodle-Code Runner\
+
 ## Algorithm:
 ### Step 1: 
 Import the numpy module to use the built-in functions for calculation
@@ -15,7 +16,18 @@ Using the np.linalg.solve(), we can find the solutions.
 End the program
 ## Program:
 
+import numpy as np
+a = np.array([[1,3],[2,5]]) 
+b = np.array([5,-3]) 
+solution=np.linalg.solve(a,b)
+print(solution)
+
+
 ## Output:
+
+
+<img width="735" height="737" alt="Screenshot 2026-02-04 133253" src="https://github.com/user-attachments/assets/e4e59ecd-a4e9-4fad-921d-86354b54b7a5" />
+
 ## Result: 
 Thus the solutions for the linear equations are successfully solved using python program
 
